@@ -3,7 +3,7 @@ export const RESOURCE_PER_ROLL = 160;
 export const DAILY_COMMISSION_PER_DAY = 60;     // 4 commission ~60 primogem/hari
 export const WELKIN_PER_DAY = 90;                // Blessing of the Welkin Moon
 export const STARDUST_PULLS_PER_MONTH = 5;       // Stardust exchange (paimon shop)
-export const SPIRAL_ABYSS_RESET_DAYS = [1, 16];  // reset 2x sebulan
+export const SPIRAL_ABYSS_RESET_DAYS = [16];     // reset 1x sebulan (tgl 16)
 export const SPIRAL_ABYSS_PER_RESET = 800;       // max primogem per reset (full clear 36★)
 export const THEATER_RESET_DAYS = [1];           // reset 1x sebulan
 export const THEATER_PER_RESET = 800;            // max primogem per reset (full clear)
@@ -16,7 +16,7 @@ export const SOURCES = [
   { key: "daily", label: "Daily Commission", icon: "✦" },
   { key: "welkin", label: "Blessing of the Welkin Moon", icon: "🌙" },
   { key: "stardust", label: "Stardust Exchange", icon: "✨" },
-  { key: "abyss", label: "Spiral Abyss (1 & 16 tiap bulan)", icon: "🌀" },
+  { key: "abyss", label: "Spiral Abyss (tiap tgl 16)", icon: "🌀" },
   { key: "theater", label: "Imaginarium Theater (tiap tgl 1)", icon: "🎭" },
   { key: "arcane", label: "Arcane Chamber — 2 stage (+200)", icon: "🔮" },
 ];
