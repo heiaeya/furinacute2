@@ -13,12 +13,12 @@ export const ARCANE_TOTAL = ARCANE_STAGE_COUNT * ARCANE_PER_STAGE; // 200
 export const THEATER_PER_RESET_WITH_ARCANE = THEATER_PER_RESET + ARCANE_TOTAL; // 1000
 
 export const SOURCES = [
-  { key: "daily", label: "Daily Commission", icon: "✦" },
-  { key: "welkin", label: "Blessing of the Welkin Moon", icon: "🌙" },
-  { key: "stardust", label: "Stardust Exchange", icon: "✨" },
-  { key: "abyss", label: "Spiral Abyss (tiap tgl 16)", icon: "🌀" },
-  { key: "theater", label: "Imaginarium Theater (tiap tgl 1)", icon: "🎭" },
-  { key: "arcane", label: "Arcane Chamber — 2 stage (+200)", icon: "🔮" },
+  { key: "daily", label: "Daily Commission" },
+  { key: "welkin", label: "Blessing of the Welkin Moon" },
+  { key: "stardust", label: "Stardust Exchange" },
+  { key: "abyss", label: "Spiral Abyss (tiap tgl 16)" },
+  { key: "theater", label: "Imaginarium Theater (tiap tgl 1)" },
+  { key: "arcane", label: "Arcane 2 stage (+200)" },
 ];
 
 export function startOfDay(d) {

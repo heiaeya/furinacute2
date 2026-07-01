@@ -41,11 +41,11 @@ export default function PrimogemCalculator() {
         <p className="pc-eyebrow">FONTAINE TREASURY</p>
         <h1 className="pc-title">Primogem Forecast</h1>
         <p className="pc-subtitle">
-          Hitung berapa pull yang akan kamu punya sampai tanggal tertentu.
+          Hitung primo buat gacha cuy.
         </p>
 
         <div className="pc-section">
-          <h2 className="pc-section-title">Yang kamu punya sekarang</h2>
+          <h2 className="pc-section-title">Yang lu punya</h2>
           <div className="pc-grid3">
             <Field label="Genesis Crystals" value={genesisCrystals} onChange={setGenesisCrystals} />
             <Field label="Primogems" value={primogems} onChange={setPrimogems} />
@@ -54,7 +54,7 @@ export default function PrimogemCalculator() {
         </div>
 
         <div className="pc-section">
-          <h2 className="pc-section-title">Sumber primogem yang dihitung</h2>
+          <h2 className="pc-section-title">Sumber</h2>
           <div className="pc-check-list">
             {SOURCES.map((s) => {
               const isArcane = s.key === "arcane";
@@ -93,7 +93,7 @@ export default function PrimogemCalculator() {
 
         {targetDate && !result && (
           <p className="pc-error-text">
-            Pilih tanggal yang valid (tidak boleh sebelum hari ini).
+            Pilih tanggal yang benar (tidak boleeh sebelum hari ini)
           </p>
         )}
 
@@ -127,7 +127,7 @@ export default function PrimogemCalculator() {
             )}
             {enabled.theater && enabled.arcane && (
               <Row
-                label="↳ termasuk Arcane Chamber (2 stage)"
+                label="Arcane (2 stage)"
                 value={`+${result.arcaneBonus.toLocaleString("id-ID")} primogem`}
               />
             )}
@@ -135,7 +135,7 @@ export default function PrimogemCalculator() {
             <Row label="Total estimasi pull" value={`${result.totalPulls} pull`} big />
             <p className="pc-note">
               Estimasi {result.days} hari dari sekarang. Asumsi: commission & welkin
-              diklaim penuh tiap hari, Spiral Abyss & Imaginarium Theater full clear
+              diklaim tiap hari, Spiral Abyss & Imaginarium Theater full clear
               tiap reset.
             </p>
           </div>
