@@ -1,5 +1,6 @@
-Kalkulator estimasi Primogem buat lu gacha + perkiraan jadwal update &
-sama livestream
+kasponten project gabut pengangguran aja
+
+tadinya namanya furinacute, tapi cewe gw ngamuk jir yaudalah ganti jadi kasponten, intinya ini tuh kalkulator estimasi Primogem buat lu gacha + perkiraan jadwal update sama livestream
 
 **langsng buka aja** [kasponten.vercel.app](https://kasponten.vercel.app)
 
