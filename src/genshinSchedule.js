@@ -60,7 +60,7 @@ export function getUpcomingSchedule(count = 10, fromDate = new Date()) {
   return list;
 }
 
-// Generate daftar event (livestream & update) sebagai flat list, ga pake nomor versi soalnya gw gatau kedeepannya gmna 
+// Generate daftar event (livestream & update) sebagai flat list, tanpa nomor versi.
 // Berguna untuk ditandai di tampilan kalender.
 export function getScheduleEvents(count = 10, fromDate = new Date()) {
   const schedule = getUpcomingSchedule(count, fromDate);
@@ -80,8 +80,8 @@ function isSameDay(a, b) {
   );
 }
 
-// grid kalender untuk satu bulan (Senin sebagai awal minggu).
-// return array of weeks, tiap week array of {date, inMonth, events[]}.
+// Bangun grid kalender untuk satu bulan (Senin sebagai awal minggu).
+// Return array of weeks, tiap week array of {date, inMonth, events[]}.
 export function buildMonthGrid(year, month, events) {
   const firstOfMonth = new Date(year, month, 1);
   const startWeekday = (firstOfMonth.getDay() + 6) % 7; // 0 = Senin

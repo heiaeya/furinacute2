@@ -56,7 +56,7 @@ export default function GenshinSchedule() {
   return (
     <div className="gs-wrap">
       <button className="gs-toggle-btn" onClick={() => setOpen((o) => !o)}>
-        {open ? "Tutup" : "Lihat Kalender"}
+        {open ? "Tutup Kalender Update" : "📅 Lihat Kalender Update Genshin"}
       </button>
 
       {open && (
@@ -120,9 +120,9 @@ export default function GenshinSchedule() {
           </div>
 
           <p className="gs-disclaimer">
-            Perkiraan berdasarkan pola 42 hari (update tiap Rabu, livestream
+            Perkiraan berdasarkan pola siklus 42 hari (update tiap Rabu, livestream
             12 hari sebelumnya tiap Jumat). Bisa berubah sewaktu-waktu kalau ada
-            event khusus, libur panjang, atau pengumuman resmi dari HoYoverse
+            event khusus, libur panjang, atau pengumuman resmi dari HoYoverse.
           </p>
         </div>
       )}
