@@ -67,7 +67,7 @@ npm run preview
 
 ## ☁️ Deploy
 
-### Vercel (direkomendasikan)
+### Vercel 
 1. Import repo ke [vercel.com](https://vercel.com).
 2. Framework Preset: **Vite**.
 3. Build Command: `npm run build` (default), Output Directory: `dist` (default).
