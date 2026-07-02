@@ -42,14 +42,11 @@ ngitung lu dpt brapa yaudah gt doang
 instal dlu [Node.js](https://nodejs.org/) (versi 18+ disarankan).
 
 ```bash
-# 1. Clone repo
 git clone https://github.com/heiaeya/furinacute2.git
 cd furinacute2
 
-# 2. Install dependencies
 npm install
 
-# 3. Jalankan dev server
 npm run dev
 ```
 
